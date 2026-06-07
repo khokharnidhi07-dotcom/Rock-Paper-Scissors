@@ -8,7 +8,7 @@ h1 {
     background-color: #081b31;
     color: #fff;
     height: 5rem;
-    line-height: 5rem;
+     line-height: 5rem; /*agr jitni height h uthni hi line height de do toh text beech m aa jata h */
 }
 
 .choice {
@@ -51,8 +51,8 @@ img {
 
 }
 
-#user-score,
-#comp-score {
+
+#user-score,#comp-score {
     font-size: 4rem;
 }
 
@@ -61,12 +61,11 @@ img {
 }
 
 #msg {
-
-    background-color: #081b31;
+     background-color: #081b31;
     color: #fff;
     font-size: 2rem;
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
-}
+
 }
